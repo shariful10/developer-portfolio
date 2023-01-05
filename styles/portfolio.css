@@ -74,7 +74,7 @@ nav li {
     margin-bottom: 30px;
 }
 
-/* Main Section */
+/* Main Section Style */
 
 main {
     max-width: 1140px;
@@ -122,7 +122,7 @@ section {
     color: #474747;
 }
 
-/* What I Do */
+/* What I Do Section Style */
 
 .skills-container {
     display: flex;
