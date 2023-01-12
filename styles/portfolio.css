@@ -214,3 +214,51 @@ input {
 .contact a {
     text-decoration: none;
 }
+
+/* Responsive Style */
+
+@media screen and (max-width: 576px) {
+
+    .about-info-container,
+    .contact,
+    .resume-content,
+    .skills-container {
+        gap: 20px;
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+
+    .about,
+    .contact {
+        padding: 20px;
+    }
+
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 0 0 0 5px;
+    }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .about,
+    .contact {
+        padding: 20px;
+    }
+
+    .contact {
+        gap: 10px;
+    }
+
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 0 0 0 5px;
+    }
+}
+
+.hide {
+    display: none;
+}
